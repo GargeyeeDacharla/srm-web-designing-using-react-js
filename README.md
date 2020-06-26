@@ -1,2 +1,2 @@
 # srm-web-designing-using-react-js
-web designing using react js
+Info about web designing using react js
