@@ -9,4 +9,5 @@ Info about web designing using react js
 * cloning into local systems*
 * creating folders and files in local system folders and pushing them into github repository*
 ## DAY-3
+*Sublime text editor installation
 
