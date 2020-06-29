@@ -12,4 +12,10 @@ Info about web designing using react js
 * Sublime text editor installation
 * INTRO TO HTML5 (tags,its elements types,images(logos)insertion)
 * Editing index file using tags and forms.
-
+## DAY-4
+* DIFFERENT TYPES of elements in Html5
+  ** block line elements
+  ** IN line elements
+  **  navigation elements
+  ** ssemantic ..
+ * CSS
