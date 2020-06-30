@@ -19,3 +19,9 @@ Info about web designing using react js
   **  navigation elements
   ** ssemantic ..
  * CSS
+## DAY-5
+* FLex properties : These are the advanced concepts of css grid system
+ ** display: flex;
+	 ** flex-direction : row-reverse;
+	 ** flex-wrap: wrap;
+	 ** justify-content: center;
