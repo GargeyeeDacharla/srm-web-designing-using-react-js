@@ -25,3 +25,10 @@ Info about web designing using react js
 	 * flex-direction : row-reverse;
 	 * flex-wrap: wrap;
 	 * justify-content: center;
+##DAY-6
+### Profile creation  : (using flex properties)
+        * profile with name , profession 
+	* mail ,tel navigations & other communication details along with their link address.
+	
+##DAY-7
+* Bootstrap dwnld...
