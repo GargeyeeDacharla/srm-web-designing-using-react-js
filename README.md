@@ -30,5 +30,5 @@ Info about web designing using react js
         * profile with name , profession 
 	* mail ,tel navigations & other communication details along with their link address.
 	
-##DAY-7
+## DAY-7
 * Bootstrap dwnld...
