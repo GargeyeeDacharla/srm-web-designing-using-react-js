@@ -40,3 +40,6 @@ Info about web designing using react js
     
 ## DAY-9
  * table & its properties using bootstrap
+ 
+ ## DAY-10
+ * Intro to js and data types
