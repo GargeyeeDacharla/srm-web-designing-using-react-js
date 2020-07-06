@@ -31,4 +31,12 @@ Info about web designing using react js
 	* mail ,tel navigations & other communication details along with their link address.
 	
 ## DAY-7
-* Bootstrap dwnld...
+* Bootstrap dwnld... and remaining css properties
+
+## DAY-8
+### About Bootstrap.mim.css &  Bootstrap.mim.js
+    * bootstrap clases 
+    * txt colors, bg colors , btns , grid system
+    
+## DAY-9
+ * table & its properties using bootstrap
