@@ -44,9 +44,9 @@ Info about web designing using react js
  ## DAY-10
  * Intro to js and data types
  ## DAY-11
- ** alert("hi")
+ * alert("hi")
 undefined
-** prompt("enter")
+* prompt("enter")
 "gargu"
-** confirm("Are u sure")
+* confirm("Are u sure")
 false
