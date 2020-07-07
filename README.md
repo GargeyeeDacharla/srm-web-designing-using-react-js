@@ -47,6 +47,6 @@ Info about web designing using react js
  * alert("hi")
 undefined
 * prompt("enter")
-"gargu"
+"JIM"
 * confirm("Are u sure")
 false
