@@ -50,3 +50,8 @@ undefined
 "JIM"
 * confirm("Are u sure")
 false
+* Console statements
+* functions
+* Array iterations using Map() , for in , for of .
+## DAY-12
+* DOM of js : document functions , documenty selectors.
