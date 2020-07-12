@@ -60,9 +60,82 @@ false
 * By using document keyword, We can manipulate the data in html document.
 * Document object model functions are:
 		``` document.getElementById("id");
-* Collections
-		document.getElementsByClassName("className");
-		document.getElementsByTagName("Tag name");
+* Collections :
+		* document.getElementsByClassName("className");
+		 * document.getElementsByTagName("Tag name");
 * Common statements for DOM
-		document.querySelector("#selector | .selector | Tag Name Selector");
-		document.querySelectorAll(".selector | Tag Name Selector");
+		* document.querySelector("#selector | .selector | Tag Name Selector");
+		* document.querySelectorAll(".selector | Tag Name Selector");
+
+
+## DAY-13
+## innerHTML :
+  * innerHTML triggers the information exist with in the tags. Example:
+
+	<div id="second">
+		Sample division
+	</div>
+	var second=document.getElementById("second").innerHTML;
+	console.log(second);
+	____
+	Output: Sample division
+* Writing information into divisions using innerHTML
+
+	document.getElementById("second").innerHTML="Hello everyone";
+Creating and appending HTML attributes We can create the html attributes by using javascript code part also. For that we need to use document.createElement. And we can append the information into the created elements by using textContent.
+
+Syntax:
+
+	document.createElement("html tagname")
+Example:
+
+	//Selecting a section from html;
+	var secondDiv=document.getElementById("second");
+	
+	// Creating a html attribute
+	var heading2=document.createElement("h2");
+	heading2.textContent="heading";
+	
+	//Appending child attribute to parent
+	secondDiv.appendChild(heading2);
+## Objects in Javascript
+* Object is nothing but its a key,value pair. When we going to get the value from an object, we've to use the key of that object
+
+Example:
+
+	var student={
+		name:"Hemanth sai",
+		role:"Student",
+		branch:"CSE:
+	}
+	__________
+	student.name => Hemanth sai
+## Arrays in the object:
+
+	var student={
+		friends:["sai vasanth","savya sree", "nitesh bharti","venkatesh"]
+	}
+	_____
+	// Here `0` is the index value
+	student.friends[0]
+	______
+	Output: sai vasanth
+	
+	_____
+	student.friends[student.friends.length-1]
+	____
+	Output: Venkatesh
+## Objects in Object:
+
+	var student={
+		student1:{
+			name:"Swetha"
+		},
+		student2:{
+			name:"venkatesh"
+		}
+	}
+	______
+	student.student1.name
+	_____
+	Output: Swetha
