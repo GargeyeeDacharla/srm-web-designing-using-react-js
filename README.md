@@ -55,3 +55,14 @@ false
 * Array iterations using Map() , for in , for of .
 ## DAY-12
 * DOM of js : document functions , documenty selectors.
+* We can implement JavaScript code any where in html document.
+ * We've to use script tags for taht (<script> </script>)
+* By using document keyword, We can manipulate the data in html document.
+* Document object model functions are:
+		document.getElementById("id");
+* Collections
+		document.getElementsByClassName("className");
+		document.getElementsByTagName("Tag name");
+* Common statements for DOM
+		document.querySelector("#selector | .selector | Tag Name Selector");
+		document.querySelectorAll(".selector | Tag Name Selector");
