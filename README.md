@@ -54,7 +54,7 @@ false
 * functions
 * Array iterations using Map() , for in , for of .
 ## DAY-12
-* DOM of js : document functions , documenty selectors.
+### DOM of js : document functions , documenty selectors.
 * We can implement JavaScript code any where in html document.
  * We've to use script tags for taht (<script> </script>)
 * By using document keyword, We can manipulate the data in html document.
