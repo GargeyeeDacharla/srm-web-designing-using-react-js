@@ -82,7 +82,7 @@ false
 * Writing information into divisions using innerHTML
 
 	document.getElementById("second").innerHTML="Hello everyone";
-Creating and appending HTML attributes We can create the html attributes by using javascript code part also. For that we need to use document.createElement. And we can append the information into the created elements by using textContent.
+* Creating and appending HTML attributes We can create the html attributes by using javascript code part also. For that we need to use document.createElement. And we can append the information into the created elements by using textContent.
 
 Syntax:
 
@@ -139,3 +139,43 @@ Example:
 	student.student1.name
 	_____
 	Output: Swetha
+	
+# DAY-14
+
+## Java Script Object Notation(JSON)
+* Light weight data-interchange format (This is a format to trnsfer information between the nodes)
+* This is very easy to read,understand and write.
+* This is very easy for the machines to parse and generate data.
+* This is subset of javascript programming language standards (ECMA SCRIPT - 262).
+* For accessing JSON data from a HTML document, we need to use a server.
+     * npm server
+     * web server for chrome (200 OK)
+          Web server for chrome is a static server invented google team. This allows us to access any information from               external file into a HTML document.
+     * Installation of 200 OK
+            * Type web server for chrome in your chrome browser and press Enter.
+            *  We have to choose web server for chrome from chrome.google.com from listing.
+            *  We have to click on add to chrome button. Soon after we will see a dialogue box and then click on add app.
+## Promises:
+* A promise is an object that may produce a single value some time in the future. The client and the server communicating with eachother, client need to send a request to the server, the server need to respond to the client request simultaniously. This promise give us a value that the is resolved or not resolved. The states for the promise are
+
+* Fulfilled
+* Rejected
+* Pending
+ * The promise is a chine relation, We can build multiple coding blocks. The syntax:
+
+	promise(request).then(response=>{
+		return response;
+	})
+* Promises examples:
+
+* Fetch
+* Cache
+ * Example:
+
+	fetch('data.json').then(response=>{
+		return response.json();
+	}).then(data=>{
+		console.log(data);
+	})
+* The promioses concept is the replacement for XMLHttpRequest. The XMLHttpRequest provides a way to communicate with client and server
+
