@@ -59,13 +59,13 @@ false
 * We've to use script tags for taht (<script> </script>)
 * By using document keyword, We can manipulate the data in html document.
 * Document object model functions are:
-		* document.getElementById("id");
+  * document.getElementById("id");
 * Collections :
-		 * document.getElementsByClassName("className");
-		 * document.getElementsByTagName("Tag name");
+  * document.getElementsByClassName("className");
+  * document.getElementsByTagName("Tag name");
 * Common statements for DOM
-		* document.querySelector("#selector | .selector | Tag Name Selector");
-		* document.querySelectorAll(".selector | Tag Name Selector");
+  * document.querySelector("#selector | .selector | Tag Name Selector");
+  * document.querySelectorAll(".selector | Tag Name Selector");
 
 
 ## DAY-13
