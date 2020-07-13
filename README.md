@@ -70,7 +70,8 @@ false
 
 ## DAY-13
 ## innerHTML :
-  * innerHTML triggers the information exist with in the tags. Example:
+  * innerHTML triggers the information exist with in the tags.
+     * Example:
 
 	<div id="second">
 		Sample division
