@@ -73,7 +73,7 @@ false
   * innerHTML triggers the information exist with in the tags.
      * Example:
 
-	<div id="second">
+	<div id ="second">
 		Sample division
 	</div>
 	var second=document.getElementById("second").innerHTML;
