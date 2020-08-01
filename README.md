@@ -104,6 +104,7 @@ Example:
 * Object is nothing but its a key,value pair. When we going to get the value from an object, we've to use the key of that object
 
 Example:
+```javascript
 
 	var student={
 		name:"Hemanth sai",
@@ -112,7 +113,10 @@ Example:
 	}
 	__________
 	student.name => Hemanth sai
+	
+```
 ## Arrays in the object:
+```javascript
 
 	var student={
 		friends:["sai vasanth","savya sree", "nitesh bharti","venkatesh"]
@@ -127,7 +131,9 @@ Example:
 	student.friends[student.friends.length-1]
 	____
 	Output: Venkatesh
+```
 ## Objects in Object:
+ ```javascript
 
 	var student={
 		student1:{
@@ -141,6 +147,7 @@ Example:
 	student.student1.name
 	_____
 	Output: Swetha
+ ```
 	
 # DAY-14
 
@@ -183,7 +190,7 @@ Example:
 	}).then(data=>{
 		console.log(data);
 	})
- ```
+     ```
 * The promioses concept is the replacement for XMLHttpRequest. The XMLHttpRequest provides a way to communicate with client and server
 # DAY-15
 * Code practice on json, promises.
