@@ -163,6 +163,7 @@ Example:
 * Rejected
 * Pending
  * The promise is a chine relation, We can build multiple coding blocks. The syntax:
+ ```javascript
 
 	promise(request).then(response=>{
 		return response;
