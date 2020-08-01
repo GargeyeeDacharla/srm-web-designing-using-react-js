@@ -72,7 +72,7 @@ false
 ## innerHTML :
   * innerHTML triggers the information exist with in the tags.
      * Example:
-
+  ```javascript
 	* <div id ="second">
 		Sample division
 	</div>
@@ -80,6 +80,7 @@ false
 	console.log(second);
 	____
 	Output: Sample division
+ ```
 * Writing information into divisions using innerHTML
 
 	document.getElementById("second").innerHTML="Hello everyone";
@@ -168,17 +169,21 @@ Example:
 	promise(request).then(response=>{
 		return response;
 	})
+ ```
 * Promises examples:
 
 * Fetch
 * Cache
  * Example:
-
+     
+     ```javascript
+     
 	fetch('data.json').then(response=>{
 		return response.json();
 	}).then(data=>{
 		console.log(data);
 	})
+ ```
 * The promioses concept is the replacement for XMLHttpRequest. The XMLHttpRequest provides a way to communicate with client and server
 # DAY-15
 * Code practice on json, promises.
